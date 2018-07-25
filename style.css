@@ -1,0 +1,92 @@
+h1 {
+    color: rgb(193, 52, 1);
+    text-shadow: 4px 4px #aaa;
+    text-align: center;
+    font-size: 2.97em;
+    margin-bottom: 0px;
+    font-weight: bolder; 
+    margin: 20px;
+}
+.service-section{
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px 0px 40px 0px;
+    box-shadow: 0px 0px 20px 5px #aaa;
+}
+.service-heading h2{
+    color: rgb(193, 52, 1);
+    text-shadow: 4px 4px #aaa;
+    text-align: center;
+    font-size: 2.67em;
+    margin-bottom: 0px;
+    font-weight: bolder; 
+}
+.service-detail{
+    margin-top: 10px;
+    color: rgb(160, 150, 150);
+    text-align: center;
+}
+.service-all{
+    display: inline;
+}
+.service-single{
+    height: auto;
+    text-align: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+.service-single img{
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+.service-single-detail{
+    padding: 10px;
+}
+.service-single-detail{
+    color: #aaa;
+}
+.caption{
+    text-align: center;
+}
+.caption a{
+    padding-top: 2px;
+    color: rgb(195, 52, 0);
+    text-shadow: 2px 2px #aaa;
+    font-weight: bold; 
+    font-size: 1.23em;
+}
+.slick-center{
+    background-color: gray;
+    box-shadow: 0px 0px 20px 5px #aaa;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.slick-center .service-single .service-single-detail p ::after{
+    color: white;
+}
+.slide{
+    margin-bottom: 20px;
+}
+.slide .service-single img{
+    margin-left: 25%;
+}
+@media only screen and (max-width: 768px){
+    .service-single img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.caption{
+    font-size: 1.87em;
+}
+.slide .service-single img{
+    margin-left: auto;
+}
+
+.service-detail p{
+    padding: 0px 20px 0px 20px;
+}
+}
