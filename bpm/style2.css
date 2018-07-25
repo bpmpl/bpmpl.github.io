@@ -1,5 +1,5 @@
 body{
-    background-color: #ddd;
+    background-color: #eee;
     padding: 0px;
     margin: 0px;
 }
@@ -155,6 +155,7 @@ input, select, option,textarea{
     width: 100%;
     padding: 5px;
 }
+
 .service-choice, .client-details, .other-details{
     padding: 50px;
     background: rgb(31, 82, 121);
@@ -170,43 +171,91 @@ input, select, option,textarea{
     font-size: 1.5em;
     font-weight: bold;
 }
-.whyus{
-    background: url("img/l21.png") no-repeat;
+.service-section{
+    padding: 30px 10%;
+    background: url("img/s5.png") #ccc;
+    background-repeat: no-repeat;
     background-size: 100%;
-    padding: 50px 10% 40px 10%;
+    height: 100vh;
 }
-.whyus h1{
+.service-section center{
+    padding:4vh 0px 0px 0px;
+}
+.service-heading h2{
+    font-weight: 1000;
+    color: rgb(31, 82, 121);
+    font-size: 3em;
+}
+.service-details p{
+    font-weight: bolder;
+    letter-spacing:0px;
+    font-size: 1.13em;
+    color: rgb(77, 76, 76);
+}
+.service-all{
+    padding: 0px 10px;
+}
+.service-single{
+    text-align: center;
+    margin: 0px;
+    padding: 5px 10px;
+}
+.service-single img{
+    width: 100px;
+    height: auto;
+}
+.caption a{
     color: rgb(31, 82, 121);
     font-weight: 1000;
+    font-size: 1.30em;
 }
-.whyus-list, .whyus-list ul{
+.service-single p{
+    font-weight: bolder;
+    color: rgb(77, 76, 76);
+}
+.view-all-services{
+    padding: 5%;
+    background: rgb(31, 82, 121);
+}
+.view-all-services button{
+    color: rgb(31, 82, 121);
+    background: white;
+}
+.what-we{
+    height: 100vh;
+    padding: 10px 10%;
+    background: url("img/s3.jpg");
+    background-size: 100%;
+    
+}
+.what-we{
+    padding: 30px 10%;
+}
+.what-we h2{
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+    font-size: 3em;
+}
+.what-we-single{
     display: inline;
+    text-align: center;
+    padding: 20px;
 }
-.whyus p{
-    color: rgb(31, 82, 121);
+.what-we-content{
+    background: rgb(31, 82, 121);
+    padding: 20px;
+    box-shadow: 0px 0px 20px 5px white;
+    z-index: 23;
+}
+.what-we-single h4{
+    color: white;
+    font-weight: 1000;
+    font-size: 1.53em;
+}
+.what-we-single p{
+    color: white;
     font-weight: bolder;
 }
-.whyus li{
-    color: rgb(31, 82, 121);
-    font-weight: bolder;
-}
-.what-we-offer{
-  background: #fff;
-  padding: 40px 100px;
-}
-.offer-single, .what-we-offer h2{
-  text-align: center;
-}
-.what-we-offer h2,h4{
-  color: rgb(31, 82, 121);
-  font-weight: 800;
-}
-.closer{
-  padding: 20px;
-  background: rgb(31, 82, 121);
-}
-.closer h1{
-  color: white;
-  text-align: center;
-  font-weight: 1000;
+.what-we-single img{
+    width: 100px;
 }
