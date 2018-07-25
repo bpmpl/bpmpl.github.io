@@ -23,3 +23,5 @@ $(document).ready(function () {
     });
 });
 
+let service = document.getElementById("service").value;
+console.log($service);

@@ -1,0 +1,212 @@
+body{
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+}
+.main-image{
+    background-image: url("img/head4.jpg");
+    background-repeat: no-repeat;
+}
+.heading-main{
+    padding: 20px 10%;
+    background: url("img/head1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.nav1{
+    
+}
+.brand-logo ,.brand-logo img, .brand-name ,.brand-name h1{
+    display: inline;
+}
+.brand-name {
+    margin-top: 0px;
+    font-size: 2.5em;
+    font-weight: 1000;
+    vertical-align: bottom; 
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(31, 82, 121);
+}
+.brand-logo{
+    margin-top: 0px;
+    width: 45px;
+    height: auto;
+}
+.navs ul{
+    margin-top: 20px;
+}
+.navs li, .navs{
+    display: inline;
+}
+.navs{
+    float: right !important;
+    vertical-align: middle;
+}
+.navs li{
+    margin: 20px 10px;
+}
+.button{
+    padding: 10px;
+    margin-left: 10px;
+    background: rgb(31, 82, 121);;
+    color: white;
+    border:0px;
+    font-weight: bold;
+}
+.navs li a{
+    font-size: 1.1em;
+}
+.navs a {
+    color: rgb(31, 82, 121);
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.23em;
+    letter-spacing: 1px;
+}
+.navs li :hover{
+    border: 1px solid rgb(31, 82, 121);
+    background: white;
+    color: rgb(31, 82, 121);
+    padding: 10px;
+    border-radius: 50px;
+}
+.slider{
+    padding: 0px;
+    margin: 0px;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+}
+.slider-heading{
+    width: 40%;
+    margin: 15% 0px 0px 13%;
+}
+.slider-heading h1{
+    font-weight: 1000;
+    font-size: 5em;
+    padding: 0px;
+    margin: 0px;
+}
+.slider-heading h3{
+    font-weight: 1000;
+    font-size: 2.45em;
+    letter-spacing: 10px;
+}
+.slider-heading p{
+    margin: 20px 0px;
+    color: rgb(70, 79, 87);
+}
+.slider-heading button{
+    margin-left:0px; 
+    padding: 10px 25px;
+}
+.slider-heading h3 span{
+    color: rgb(31, 82, 121);
+}
+.about-us{
+    background:rgb(31, 82, 121);
+    height: 100vh;
+    padding: 10px 10%;
+    box-shadow: 0px 0px 40px 0px rgb(31, 82, 121);
+    vertical-align: middle;
+}
+.about-us p{
+    padding: 20px 0px 0px 15px;
+    margin-top:20px; 
+    font-weight: bolder;
+    color: white;
+}
+.about-us h1{
+    text-align: left;
+    font-weight: 1000;
+    color: white;
+    padding: 30px 0px 10px 0px;
+    margin: 0px;
+    font-size: 3em;
+}
+.feature{
+    padding: 20px 10px;
+    padding-right: 0px;
+}
+.feature-single{
+    height: 20%;
+}
+.feature-image{
+    text-align: center;
+    padding: 10px;
+    padding-right: 0px;
+}
+.feature-image img{
+    width: 120px;
+    height: auto;
+    text-align: center;
+}
+input, label{
+    display: block;
+}
+label{
+    color: #fff;
+}
+input, select, option,textarea{
+    height: 10%;
+    width: 100%;
+    padding: 5px;
+}
+.service-choice, .client-details, .other-details{
+    padding: 50px;
+    background: rgb(31, 82, 121);
+}
+.help-now{
+    text-align: center;
+}
+.help-now button{
+    padding: 10px 30px; 
+    border: 0px;
+    background: white;
+    color: rgb(31, 82, 121);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.whyus{
+    background: url("img/l21.png") no-repeat;
+    background-size: 100%;
+    padding: 50px 10% 40px 10%;
+}
+.whyus h1{
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+}
+.whyus-list, .whyus-list ul{
+    display: inline;
+}
+.whyus p{
+    color: rgb(31, 82, 121);
+    font-weight: bolder;
+}
+.whyus li{
+    color: rgb(31, 82, 121);
+    font-weight: bolder;
+}
+.what-we-offer{
+  background: #fff;
+  padding: 40px 100px;
+}
+.offer-single, .what-we-offer h2{
+  text-align: center;
+}
+.what-we-offer h2,h4{
+  color: rgb(31, 82, 121);
+  font-weight: 800;
+}
+.closer{
+  padding: 20px;
+  background: rgb(31, 82, 121);
+}
+.closer h1{
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+}
