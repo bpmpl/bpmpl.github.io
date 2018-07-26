@@ -15,7 +15,7 @@ body{
     height: 100vh;
 }
 .nav1{
-    
+    position: static;
 }
 .brand-logo ,.brand-logo img, .brand-name ,.brand-name h1{
     display: inline;
@@ -31,7 +31,7 @@ body{
 }
 .brand-logo{
     margin-top: 0px;
-    width: 45px;
+    width: 50px;
     height: auto;
 }
 .navs ul{
@@ -43,6 +43,7 @@ body{
 .navs{
     float: right !important;
     vertical-align: middle;
+    padding-left: 150px;
 }
 .navs li{
     margin: 20px 10px;
@@ -222,14 +223,14 @@ input, select, option,textarea{
     background: white;
 }
 .what-we{
-    height: 100vh;
+    height: 760px;
     padding: 10px 10%;
-    background: url("img/s3.jpg");
+    background: url("img/head3.jpg") no-repeat;
     background-size: 100%;
     
 }
 .what-we{
-    padding: 30px 10%;
+    padding: 20px 10%;
 }
 .what-we h2{
     color: rgb(31, 82, 121);
@@ -241,10 +242,12 @@ input, select, option,textarea{
     text-align: center;
     padding: 20px;
 }
+.what-we-content:hover{
+    box-shadow: 0px 10px 40px 5px rgb(31, 82, 121);
+}
 .what-we-content{
     background: rgb(31, 82, 121);
     padding: 20px;
-    box-shadow: 0px 0px 20px 5px white;
     z-index: 23;
 }
 .what-we-single h4{
@@ -257,5 +260,173 @@ input, select, option,textarea{
     font-weight: bolder;
 }
 .what-we-single img{
-    width: 100px;
+    width: 80px;
+}
+.get-in-touch{
+    padding: 5% 10%;
+    background:rgb(31, 82, 121); 
+}
+.get-in-touch h2{
+    color: white;
+    font-weight: 1000;
+    display: inline;
+}
+.get-in-touch button{
+    background: white;
+    color: rgb(31, 82, 121);
+    display: inline;
+    float: right;
+}
+.from-our-blog{
+    height: 130vh;
+    background: url("img/b8.jpg");
+    background-size: 100%;
+    padding: 20px 10%;
+}
+.from-our-blog h2{
+    color: rgb(31, 82, 121); 
+    font-weight: 1000;
+    font-size: 3em;
+}
+.from-our-blog p{
+    padding: 10px 0px;
+    color: rgb(77, 76, 76);
+    font-weight: bolder;
+}
+
+.blog-image{
+    padding-right: 0px;
+    margin-right: 0px;
+    height: 100%;
+}
+.blog-image img{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-align: center;
+}
+.blog-all{
+    padding: 4% 0px;
+}
+.blog-single{
+    padding: 0px;
+    margin-top: 20px;
+}
+.blog-content{
+    background: white;
+    height: 100%;
+    padding: 4px;
+    padding-left: 5px;
+}
+.blog-content p{
+    font-weight: normal;
+    font-size: 1em;
+    color:rgb(77, 76, 76);
+}
+.blog-content h4{
+    color: rgb(31, 82, 121); 
+    font-weight: 1000;
+}
+.blog-all span{
+    padding: 0px 5px;
+    margin: 0px;
+    font-weight: bold;
+    color: #ccc;
+}
+.blog-all span i{
+    padding: 0px 10px;
+    margin: 0px;
+    font-weight: bold;
+    color: #ccc;
+}
+.newsletter{
+    text-align: center;
+    padding: 20px10px;
+}
+.newsletter h3{
+    color: rgb(31, 82, 121);
+    font-weight: 700;
+}
+.newsletter input{
+    width: 50%;
+    display: inline;
+    padding: 10px;
+    color: rgb(31, 82, 121);
+    font-weight: bold;
+    margin-right: 0px;
+}
+.newsletter button{
+    margin-left: 0px; 
+}
+.footer-widgets{
+    height: 100vh;
+    padding: 40px 10%;
+    background: rgb(31, 82, 121);
+}
+.footer-widgets h2{
+    color: white;
+    font-weight: 1000;
+    font-size: 3em;
+}
+.footer-widgets p{
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.connect-icons{
+    text-align: center;
+    padding: 10px 0px;
+}
+.connect-icons span a i{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 2em;
+}
+.connect-icons > span > a :hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+    color: rgb(31, 82, 121);
+    font-size: 2em;
+}
+.connect h3{
+    padding: 0px 20px;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+.address{
+    padding: 10px;
+    text-align: center;
+}
+.callus , .mailus {
+    padding: 10px 10%;
+    color: white;
+    font-weight: bold;
+}
+.mailus a{
+    color: white;
+}
+.mailus h4, .callus h4{
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    background: rgb(31, 82, 121);
+    box-shadow: 0px 0px 40px 10px #aaa;
+}
+.footer p{
+    padding: 50px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 1000;
+}
+.footer span{
+    color: #bbb;
+}
+#map,#mapnew{
+   box-shadow: 0px 0px 40px 10px  rgb(31, 82, 121);
 }
