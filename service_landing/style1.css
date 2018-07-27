@@ -4,7 +4,9 @@ body img{
     height: 100%;
 }
 .base{
-    background-image: url("img/231.png")
+    background-image: url("img/231.png");
+    width: cover;
+    height: auto;
 }
 .input,label{
     display: block;
@@ -13,7 +15,7 @@ body img{
   background: rgb(21, 121, 160);
   color: white;
 }
-input, select, option{
+input, select, option,textarea{
     height: 10%;
     width: 100%;
     opacity: .7;
