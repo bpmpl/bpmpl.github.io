@@ -1,0 +1,174 @@
+body img{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.base{
+    background-image: url("img/231.png")
+}
+.input,label{
+    display: block;
+}
+.button{
+  background: rgb(21, 121, 160);
+  color: white;
+}
+input, select, option{
+    height: 10%;
+    width: 100%;
+    opacity: .7;
+    padding: 5px;
+}
+.main-form{
+    padding: 10px 10%;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 20px 5px skyblue;
+}
+.tab{
+    display: none;
+}
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: rgb(0, 242, 8);
+}
+blockquote {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitter', serif;
+  color: rgb(21, 121, 160);
+  text-align: left;
+  transition-duration: .3s;
+  border-left-width: 0px;
+  font-size: 1.07em;
+  font-weight: bold;
+}
+blockquote span.author {
+  position: relative;
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  color: rgb(21, 121, 160)(32, 30, 30);
+}
+blockquote span.author i {
+  position: relative;
+  padding-left: 5px;
+  font-style: italic;
+  z-index: 5;
+}
+blockquote span.author::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  z-index: 1;
+}
+
+blockquote::before {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  content: "\"";
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  color: #999;
+}
+#third{
+    margin-bottom:20px; 
+}
+.header img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.header{
+  padding: 20px;
+}
+.header h1{
+  margin-left: 12%;
+  font-size: 4.01em;
+  font-weight: 1000;
+  text-shadow: 4px 4px rgb(151, 214, 239);
+}
+.service-explain h4{
+  font-weight: 500;
+}
+.main-heading h1{
+  padding: 10px 0px 5px 40px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 2px 2px rgb(151, 214, 239);
+}
+.main-heading h4{
+  padding: 10px 0px 5px 40px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 1px rgb(151, 214, 239);
+}
+.service-list{
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+.list-item h3{
+  border: 1px solid skyblue;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px 30%;
+  box-shadow: 0px 0px 20px 5px rgb(151, 214, 239);
+  font-weight: bold;
+}
+.whyus{
+  background: rgb(21, 121, 160);
+  padding: 40px 60px;
+  box-shadow: 0px 0px 20px 5px skyblue
+}
+.whyus h2{
+  color: white;
+  font-weight: 1000;
+  font-size: 3em;
+  padding: 0px 0px 20px 0px;
+}
+.whyus p{
+   color: white;
+  font-weight: 1000;
+  padding: 20px 10px;
+}
+.what-we-offer{
+  background: #fff;
+  padding: 40px 100px;
+}
+.offer-single, .what-we-offer h2{
+  text-align: center;
+}
+.what-we-offer h2,h4{
+  color: rgb(21, 121, 160);
+  font-weight: 800;
+}
+.closer{
+  padding: 20px;
+  background: rgb(21, 121, 160);
+}
+.closer h1{
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+}
