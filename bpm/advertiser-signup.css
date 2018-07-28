@@ -1,0 +1,301 @@
+body{
+    background-color: #eee;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav1{
+    position: static;
+    padding: 10px 10%;
+    background: white;
+}
+.brand-logo ,.brand-logo img, .brand-name ,.brand-name h1{
+    display: inline;
+}
+.brand-name {
+    margin-top: 0px;
+    font-size: 2.5em;
+    font-weight: 1000;
+    vertical-align: bottom; 
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(31, 82, 121);
+}
+.brand-logo{
+    margin: 10px 0px;
+    width: 50px;
+    height: auto;
+}
+.navs ul{
+    margin-top: 20px;
+}
+.navs li, .navs{
+    display: inline;
+}
+.navs{
+    float: right !important;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+.navs li{
+    margin: 20px 10px;
+}
+.button{
+    padding: 10px;
+    margin-left: 10px;
+    background: rgb(31, 82, 121);;
+    color: white;
+    border:0px;
+    font-weight: bold;
+    cursor: auto;
+}
+.navs li a{
+    font-size: 1.1em;
+}
+.navs a {
+    color: rgb(31, 82, 121);
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1.23em;
+    letter-spacing: 1px;
+}
+.navs li :hover{
+    border: 1px solid rgb(31, 82, 121);
+    background: white;
+    color: rgb(31, 82, 121);
+    padding: 10px;
+    border-radius: 50px;
+}
+.main-heading{
+    padding: 20px 10%;
+    background: url("img/ad21.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 230px;
+}
+.main-heading h2{
+    text-align: center;
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+    font-size: 3em;
+    text-shadow: 2px 2px #ccc;
+    padding: 20px 0px;
+}
+.our-policies{
+    background: url("img/ad10.png");
+    height: 100;
+    background-size: 100%;
+    padding: 40px 10%;
+    padding-bottom: 100px;
+}
+.our-policies h3{
+    color: rgb(31, 82, 121);
+    font-size: 2em;
+    font-weight: 1000;
+    margin: 50px 0px 20px 0px;
+}
+.our-policies h4{
+    color: #aaa;
+    font-weight: 1000;
+    font-size: 1.33em;
+}
+.our-policies ul{
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+    font-size: 1.12em;
+}
+.our-policies ul li{
+    padding: 5px;
+}
+.terms-conditions{
+    background: url("img/adf10.png");
+    height: 100;
+    background-size: 100%;
+    padding: 50px 10%;
+    padding-bottom: 100px;
+}
+.terms-conditions h3{
+    color: rgb(31, 82, 121);
+    font-size: 2em;
+    font-weight: 1000;
+    margin: 50px 0px 20px 0px;
+}
+.terms-conditions h4{
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+    font-size: 1.33em;
+}
+.terms-conditions ul{
+    color: rgb(31, 82, 121);
+    font-weight: 1000;
+    font-size: 1.12em;
+}
+.terms-conditions ul li{
+    padding: 5px;
+}
+.terms-conditions p{
+    color: rgb(31, 82, 121);
+    font-weight: bold;
+}
+.main-form{
+    background:rgb(31, 82, 121);
+    padding: 6% 10%;
+}
+.main-form p{
+    padding: 20px 0px 0px 0px;
+    font-weight: bolder;
+    color: white;
+}
+.main-form p a{
+    color: #ccc;
+}
+.main-form p a:hover{
+    color: rgb(185, 184, 237);
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.main-form h2{
+    padding: 0px 0px 0px 0px;
+    font-weight: 1000;
+    color: white;
+    font-size: 3.5em;
+}
+input, label{
+    display: block;
+}
+label{
+    color: #fff;
+}
+input, select, option,textarea{
+    height: 10%;
+    width: 100%;
+    padding: 5px;
+    color: rgb(31, 82, 121);
+    font-weight: bold;
+}
+select{
+    background: white;
+}
+input[type='radio']{
+    height:15px;
+    display: inline;
+    width: 15px;
+    margin: 15px;
+    background: white;
+    color: rgb(31, 82, 121);
+}
+.who input[type='radio']{
+    height:15px;
+    display: inline;
+    width: 15px;
+    margin: 10px;
+    background: white;
+    color: rgb(31, 82, 121);
+}
+.title h5{
+    display: inline;
+}
+.title-option{
+    margin: 10px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.service-choice, .client-details, .other-details{
+    padding: 20px 50px;
+    background: rgb(31, 82, 121);
+}
+.service-choice h3, .client-details h3, .other-details h3{
+    color: white;
+    text-align: center;
+    font-weight: 1000;
+    padding: 10px;
+} 
+.help-now{
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+.help-now button{
+    padding: 10px 30px; 
+    border: 0px;
+    background: white;
+    color: rgb(31, 82, 121);
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+.footer-widgets{
+    height: 100vh;
+    padding: 40px 10%;
+    background: rgb(31, 82, 121);
+}
+.footer-widgets h2{
+    color: white;
+    font-weight: 1000;
+    font-size: 3em;
+}
+.footer-widgets p{
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.connect-icons{
+    text-align: center;
+    padding: 10px 0px;
+}
+.connect-icons span a i{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 2em;
+}
+.connect-icons > span > a :hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+    color: rgb(31, 82, 121);
+    font-size: 2em;
+}
+.connect h3{
+    padding: 0px 20px;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.5em;
+}
+.address{
+    padding: 10px;
+    text-align: center;
+}
+.callus , .mailus {
+    padding: 10px 10%;
+    color: white;
+    font-weight: bold;
+}
+.mailus a{
+    color: white;
+}
+.mailus h4, .callus h4{
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    background: rgb(31, 82, 121);
+    box-shadow: 0px 0px 40px 10px #aaa;
+}
+.footer p{
+    padding: 50px;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 1000;
+}
+.footer span{
+    color: #bbb;
+}
+#map,#mapnew{
+   box-shadow: 0px 0px 40px 10px  rgb(31, 82, 121);
+}

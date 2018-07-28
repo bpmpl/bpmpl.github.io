@@ -15,7 +15,6 @@ body{
     height: 100vh;
 }
 .nav1{
-    position: static;
 }
 .brand-logo ,.brand-logo img, .brand-name ,.brand-name h1{
     display: inline;
@@ -41,9 +40,9 @@ body{
     display: inline;
 }
 .navs{
-    float: right !important;
+   float: right;
     vertical-align: middle;
-    padding-left: 150px;
+    margin-left: 50px;
 }
 .navs li{
     margin: 20px 10px;
