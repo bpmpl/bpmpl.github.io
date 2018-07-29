@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(255, 252, 252);
     padding: 0px;
     margin: 0px;
 }
@@ -81,82 +81,87 @@ body{
     text-shadow: 2px 2px #ccc;
     padding: 20px 0px;
 }
-.apply-now{
-    background: url("img/s5.png");
-    padding: 2% 10%;
+.service{
+    background: url("img/s5.png") no-repeat;
+    background-position-y: 100%;
+    padding: 4% 10%;
     background-size:100%; 
 }
-.apply-now p{
-    padding: 10px 0px 0px 0px;
+.first, .second{
+    padding: 3% 0px;
+}
+.service-content-1 p{
+    padding: 20px 0px 0px 0px;
     font-weight: bolder;
     color: rgb(31, 82, 121);
     font-size: 1.1em;
 }
-.apply-now ul li{
-    padding: 10px 0px 0px 0px;
-    font-weight: bolder;
-    color: rgb(31, 82, 121);
-}
-.apply-now p a{
+.service-content-1 p a{
     color: #ccc;
 }
-.apply-now p a:hover{
+.service-content-1 p a:hover{
     color: rgb(185, 184, 237);
     font-weight: 600;
     font-size: 1.2em;
     text-decoration: none;
 }
-.apply-now h2{
-    padding: 0px 0px 0px 0px;
+.service-content-1 h2{
+    padding: 30px 0px 0px 0px;
     font-weight: 1000;
     color: rgb(31, 82, 121);
     font-size: 3.5em;
 }
-.main-form{
-    padding:0px 0% 0px 15%;
-}
-.main-form h2{
-    padding: 0px 0px 0px 0px;
+.service-content-1 h4{
+    padding: 10px 0px 0px 0px;
     font-weight: 1000;
-    color: white;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-.main-form p{
-    color: white;
-}
-.form-content button{
-    padding: 10px;
     color: rgb(31, 82, 121);
-    background: white;
-    margin-bottom: 20px;
+    font-size: 1.4em;
 }
-#resume{
-    color: white;
-}
-#resume > button{
+.service-content-1 ul li{
+    padding: 10px 0px 0px 0px;
+    font-weight: bolder;
     color: rgb(31, 82, 121);
-    background: white;
 }
-.form-content{
-    background: rgb(31, 82, 121);
-    padding: 2% 10%;
+.service-image-1{
+    text-align: left;
 }
-input, label{
-    display: block;
-}
-label{
-    color: #fff;
-}
-input, select, option,textarea{
-    height: 10%;
+.service-image-1 img{
+    padding: 0% 0px;
+    text-align: left;
     width: 100%;
-    padding: 5px;
-    color: rgb(31, 82, 121);
-    font-weight: bold;
+    height: auto;
 }
-select{
+.service-image-1 img :hover{
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+    height: auto;
+}
+.service-image-2 img{
+    padding: 30% 0px 30% 10px;
+    text-align: right;
+    width: 100%;
+    height: auto;
+}
+.get-in-touch{
+    margin: 0px;
+    padding: 5% 10%;
+    background:rgb(31, 82, 121); 
+}
+.get-in-touch h2{
+    color: white;
+    font-weight: 1000;
+    display: inline;
+}
+.get-in-touch button{
     background: white;
+    color: rgb(31, 82, 121);
+    display: inline;
+    float: right;
+}
+.blank{
+    height: 80px;
+    background: rgb(255, 252, 252);
 }
 .footer-widgets{
     height: 100vh;
@@ -230,3 +235,4 @@ select{
 #map,#mapnew{
    box-shadow: 0px 0px 40px 10px  rgb(31, 82, 121);
 }
+
