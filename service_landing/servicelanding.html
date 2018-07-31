@@ -19,6 +19,15 @@
 </head>
 
 <body>
+    <style>
+        input,select,textarea{
+            border:0px;
+            width: 100%;
+        }    
+        .main-image p{
+            padding: 20px 0px 0px 20%;
+        }
+    </style>
     <div class="header1 col-md-12">
         <div class="logo col-md-4">
 
@@ -31,7 +40,17 @@
         </div>
     </div>
     <div class="main-image col-md-7">
-        <img src="img/17.gif" alt="">
+        <img src="img/15.gif" alt="">
+        <p>
+             Eros pretium nam magna ne diam commodo viverra eget et leo curabitur a diam semper e tempor odio sed vehicula ornare libero
+            viva acsod orna libero unc laoreet turpis elit non eleifend eget.Eros pretium nam magna ne diam commodo viverra eget et leo curabitur a diam semper e tempor odio sed vehicula ornare libero
+            viva acsod orna libero unc laoreet turpis elit non eleifend eget.Eros pretium nam magna ne diam commodo viverra eget et leo curabitur a diam semper e tempor odio sed vehicula ornare libero
+            viva acsod orna libero unc laoreet turpis elit non eleifend eget.Eros pretium nam magna ne diam commodo viverra eget et leo curabitur a diam semper e tempor odio sed vehicula ornare libero
+            viva acsod orna libero unc laoreet turpis elit non eleifend eget.Eros pretium nam magna ne diam commodo viverra eget et leo curabitur a diam semper e tempor odio sed vehicula ornare libero
+            viva acsod orna libero unc laoreet turpis elit non eleifend eget.Eros pretium nam magna ne diam commodo viverra eget et leo curabitur a diam semper e tempor odio sed vehicula ornare libero
+            viva acsod orna libero unc laoreet turpis elit non eleifend eget.Eros pretium nam magna ne diam commodo viverra eget et leo curabitur a diam semper e tempor odio sed vehicula ornare libero
+            viva acsod orna libero unc laoreet turpis elit non eleifend eget.
+        </p>
     </div>
     <div class="form col-md-5">
 
@@ -41,26 +60,63 @@
                 <div class="login-form-1">
                     <div class="etc-login-form utxt">
                         <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because
-                            it is pain..."
+                            ..."
                         </p>
                     </div>
                     <form id="login-form" class="text-left" method="post" action="user.php">
                         <div class="login-form-main-message"></div>
                         <div class="main-login-form">
-                            <div class="login-group">
-                                <div class="form-group">
-                                    <label for="lg_username" class="sr-only">Username</label>
-                                    <input type="text" class="form-control" id="lg_username" name="lg_username" placeholder="enter your name here">
-                                </div>
-                                <div class="form-group">
-                                    <label for="lg_email" class="sr-only">E-Mail</label>
-                                    <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="enter your email here">
-                                </div>
-                                <div class="form-group">
-                                    <label for="service" class="sr-only">Select Service</label>
-                                    <input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="select your interest">
-                                </div>
+                            <div class="form-group">
+                                <label for="choice">Please Select Service of your Interest</label>
+                                <select name="service" id="service">
+                                    <option value="Display Advertising">Display Advertising</option>
+                                    <option value="E-Mail Marketing">E-Mail Marketing</option>
+                                    <option value="SMS Marketing">SMS Marketing</option>
+                                    <option value="Affilate Marketing">Affilate Marketing</option>
+                                    <option value="Social Media Marketing">Social Media Marketing</option>
+                                    <option value="Web Development">Web Development</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="startdate">Tentative Start Date</label>
+                                <input type="date" name="startdate" id="startdate" placeholder="start date">
+                            </div>
+                            <div class="form-group">
+                                <label for="enddate">Expected Completion Date</label>
+                                <input type="date" name="enddate" id="endtdate" placeholder="end date">
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select name="budget" id="budget">
+                                    <option value="1000-2000">1000-2000</option>
+                                    <option value="3000-4000">3000-4000</option>
+                                    <option value="5000-6000">5000-6000</option>
+                                    <option value="7000-8000">7000-8000</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" placeholder="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Phone Number">Phone Number</label>
+                                <input type="Number" name="phonenumber" id="phone" placeholder="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="companyname ">Company Name</label>
+                                <input type="text" placeholder="company name">
+                            </div>
+                            <div class="form-group">
+                                <label for="aboutproject">Please Share Brief About Project</label>
+                                <textarea name="aboutproject" id="" cols="28" rows="4" placeholder="about project"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="aboutproject">Any Specific Guideline to be kept in Mind</label>
+                                <textarea name="guidance" id="" cols="28" rows="4" placeholder="any guidance here"></textarea>
                             </div>
                             <button type="submit" class="login-button">
                                 <i class="fa fa-chevron-right"></i>
@@ -69,8 +125,7 @@
                     </form>
                     <div class="etc-login-form btxt">
                         <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because
-                            it is pain..."
+                            "..."
                         </p>
                     </div>
                 </div>

@@ -4,27 +4,30 @@ body img{
     height: 100%;
 }
 .base{
-    background-image: url("img/231.png");
+    background-image: url("img/l51.jpg");
+    background-size: 100%;
     width: cover;
-    height: auto;
+    height: 100vh;
+    padding-bottom: 20px;
 }
 .input,label{
     display: block;
 }
 .button{
-  background: rgb(21, 121, 160);
-  color: white;
+  background: white;
+  color:rgb(31, 82, 121);
 }
 input, select, option,textarea{
     height: 10%;
     width: 100%;
-    opacity: .7;
     padding: 5px;
+    color: rgb(31, 82, 121);
 }
 .main-form{
     padding: 10px 10%;
-    margin: 20px 0px;
-    box-shadow: 0px 0px 20px 5px skyblue;
+    margin: 40px 0px;
+    background: rgb(31, 82, 121);
+    color: white;
 }
 .tab{
     display: none;
@@ -33,11 +36,10 @@ input, select, option,textarea{
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbbbbb;
+  background-color: #fff;
   border: none;  
   border-radius: 50%;
   display: inline-block;
-  opacity: 0.5;
 }
 
 .step.active {
@@ -52,7 +54,7 @@ blockquote {
   position: relative;
   display: inline-block;
   font-family: 'Bitter', serif;
-  color: rgb(21, 121, 160);
+  color: white;
   text-align: left;
   transition-duration: .3s;
   border-left-width: 0px;
@@ -108,22 +110,25 @@ blockquote::before {
   margin-left: 12%;
   font-size: 4.01em;
   font-weight: 1000;
-  text-shadow: 4px 4px rgb(151, 214, 239);
+  color:rgb(31, 82, 121);
 }
 .service-explain h4{
   font-weight: 500;
+  color: white;
+  padding-top: 20px;
 }
 .main-heading h1{
   padding: 10px 0px 5px 40px;
   font-weight: bolder;
   text-align: center;
-  text-shadow: 2px 2px rgb(151, 214, 239);
+  text-shadow: 2px 2px rgb(31, 82, 121);
+  color: rgb(31, 82, 121);
 }
 .main-heading h4{
   padding: 10px 0px 5px 40px;
   font-weight: bolder;
   text-align: center;
-  text-shadow: 1px 1px rgb(151, 214, 239);
+  text-shadow: 1px 1px rgb(31, 82, 121);
 }
 .service-list{
   text-align: center;
@@ -131,17 +136,16 @@ blockquote::before {
   display: none;
 }
 .list-item h3{
-  border: 1px solid skyblue;
+  border: 1px solid rgb(31, 82, 121);
   border-radius: 50%;
   padding: 20px;
   margin: 10px 30%;
-  box-shadow: 0px 0px 20px 5px rgb(151, 214, 239);
+  box-shadow: 0px 0px 20px 5px rgb(31, 82, 121);
   font-weight: bold;
 }
 .whyus{
-  background: rgb(21, 121, 160);
+  background: rgb(31, 82, 121);
   padding: 40px 60px;
-  box-shadow: 0px 0px 20px 5px skyblue
 }
 .whyus h2{
   color: white;
@@ -162,12 +166,12 @@ blockquote::before {
   text-align: center;
 }
 .what-we-offer h2,h4{
-  color: rgb(21, 121, 160);
+  color: rgb(31, 82, 121);
   font-weight: 800;
 }
 .closer{
   padding: 20px;
-  background: rgb(21, 121, 160);
+  background: rgb(31, 82, 121);
 }
 .closer h1{
   color: white;
