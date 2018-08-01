@@ -1,5 +1,4 @@
 body img{
-    position: fixed;
     width: 100%;
     height: 100%;
 }
@@ -22,6 +21,12 @@ input, select, option,textarea{
     width: 100%;
     padding: 5px;
     color: rgb(31, 82, 121);
+    background: white;
+    font-weight: bold;
+}
+option{
+  background: white;
+  padding: 10px;
 }
 .main-form{
     padding: 10px 10%;
@@ -121,14 +126,14 @@ blockquote::before {
   padding: 10px 0px 5px 40px;
   font-weight: bolder;
   text-align: center;
-  text-shadow: 2px 2px rgb(31, 82, 121);
+  text-shadow: 2px 2px #ccc;
   color: rgb(31, 82, 121);
 }
 .main-heading h4{
   padding: 10px 0px 5px 40px;
   font-weight: bolder;
   text-align: center;
-  text-shadow: 1px 1px rgb(31, 82, 121);
+  text-shadow: 1px 1px #ccc;
 }
 .service-list{
   text-align: center;
@@ -145,7 +150,8 @@ blockquote::before {
 }
 .whyus{
   background: rgb(31, 82, 121);
-  padding: 40px 60px;
+  padding: 70px 60px;
+  padding-bottom: 90px;
 }
 .whyus h2{
   color: white;
@@ -155,12 +161,13 @@ blockquote::before {
 }
 .whyus p{
    color: white;
-  font-weight: 1000;
-  padding: 20px 10px;
+  font-weight: bold;
+  padding: 0px;
 }
 .what-we-offer{
-  background: #fff;
+  background:url("img/m1.jpg");
   padding: 40px 100px;
+
 }
 .offer-single, .what-we-offer h2{
   text-align: center;
@@ -177,4 +184,64 @@ blockquote::before {
   color: white;
   text-align: center;
   font-weight: 1000;
+}
+
+@media only screen and (max-width:768px) {
+  .{
+    padding: 0px;
+    margin: 0px;
+  }
+  .base{
+    width: 100%;
+    top:6em;
+    height: auto;
+    padding-left: 0px;
+    margin-left: 0px;
+    background: url("img/m1.jpg");
+  }
+  .service{
+    padding: 0px;
+    margin:0px;
+  }
+  .header{
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+    position: fixed;
+    top: 0em;
+    background: #fff;
+    z-index: 200;
+    width: 100%;
+  }
+  .header img{
+    width: 50px;
+    height: auto;
+    position: unset;
+    padding-top:0px;
+    display: inline; 
+    text-align: center;
+    
+  }
+  .header h1{
+    font-size: 1.5em;
+    padding-top:0px;
+    margin-top: 0px; 
+    display: block;
+    padding-left: 10px;
+    margin-left: 0px;
+  }
+  .main-heading h1{
+    font-size: 1.5em;
+    padding: 10% 10% 2% 10%;
+  }
+  .whyus{
+    margin-top: 90px;
+  }
+  .whyus h2{
+    font-size: 2em;
+  }
+  .whyus-p p{
+    padding: 10px;
+  }
 }
