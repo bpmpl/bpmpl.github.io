@@ -1,0 +1,159 @@
+.main-content{
+   padding:1%;
+}
+.single-client{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.tab-pane{
+    height: 578.5px;
+}
+.tab-pane span{
+    color: rgb(31,82,121);
+    font-size: 10em;
+    padding-left: 40%;  
+}
+.tab-pane h2{
+    color: rgb(31,82,121);
+    font-weight: 1000;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.tab-pane h3{
+    color: #888;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tab-pane h4{
+    color: #bbb;
+    font-weight: 600;
+    text-align: center; 
+    padding-top: -10px;
+}
+
+.client-details{
+    padding: 10px 0px;
+}
+
+.client-details table{
+    margin: 0px 10%;
+}
+.client-details table tbody td{
+    padding: 2px 20px;
+    color: rgb(31,82,121);
+    font-size:1.11em;
+    font-weight: bolder; 
+}
+
+.control-buttons{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.button{
+    padding: 10px;
+    background: rgb(31, 82, 121);;
+    color: white;
+    border:0px;
+    font-weight: bold;
+}
+.button span{
+    color: white;
+    font-size: 1.11em; 
+    padding-left:0px; 
+}
+.button i{
+    font-weight: bold;
+    padding: 0px 10px;
+    font-size: 1.2em;
+}
+.panel-heading{
+    background: rgb(31, 82, 121) !important;
+}
+.panel-heading h3, .panel-heading span{
+    color: white !important;
+
+}
+.hearedfrom{
+    padding-top: 20px;
+}
+.hearedfrom p{
+    padding-left:14%;
+    color: rgb(31, 82, 121);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.qustion{
+    padding-left:14%;
+    color: rgb(31, 82, 121);
+    font-size: 1.5em;
+    font-weight: 1000;
+}
+
+.main-form{
+    padding:0px 0% 0px 15%;
+}
+.main-form h2{
+    padding: 0px 0px 0px 0px;
+    font-weight: 1000;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.main-form p{
+    color: white;
+}
+.form-content button{
+    padding: 10px;
+    color: rgb(31, 82, 121);
+    background: white;
+    margin-bottom: 20px;
+}
+#resume{
+    color: white;
+}
+#resume > button{
+    color: rgb(31, 82, 121);
+    background: white;
+}
+.form-content{
+    background: rgb(31, 82, 121);
+    padding: 2% 10%;
+}
+input, label{
+    display: block;
+}
+label{
+    color: #fff;
+}
+input, select, option,textarea{
+    height: 10%;
+    width: 100%;
+    padding: 5px;
+    color: rgb(31, 82, 121);
+    font-weight: bold;
+}
+select{
+    background: white;
+}
+.messages{
+    height: 50vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.list-group-contacts{
+    height: 82vh;
+    overflow-y: scroll;
+}
+
+.summernote{
+    height: 100vh !important;
+}
+
+.note-editable{
+    height: 75vh !important;
+}

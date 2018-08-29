@@ -83,35 +83,35 @@
             <div class="col-md-12 form-content">
                 <h2>Your Details</h2>
                 <p>Lets us know how to get back to you.</p>
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input type="number" name="phone">
-                </div>
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" name="subject" id="subject">
-                </div>
-                <div class="form-group">
-                    <label for="list">Your Message</label>
-                    <textarea name="message" id="" cols="28" rows="6"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="resume">Upload Your Resume</label>
-                    <input type="file" name="resume" id="resume">
-                </div>
-                <center>
-                    <button class="button">
-                        REACH OUT NOW!!
-                    </button>
-                </center>
+                <form enctype=”multipart/form-data” method="POST" action="we-are-hiring.php" >
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="list">Your Message</label>
+                        <textarea name="message" id="" cols="28" rows="6"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="resume">Upload Your Resume</label>
+                        <input type="file" name="upload-file" id="resume">
+                    </div>
+                    <center>
+                        <input type="submit" value="ReachOut Now!" class="button">
+                    </center>
+                </form>
             </div>
         </div>
     </div>

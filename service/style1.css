@@ -1,0 +1,247 @@
+body img{
+    width: 100%;
+    height: 100%;
+}
+.base{
+    background-image: url("img/l51.jpg");
+    background-size: 100%;
+    width: cover;
+    height: 100vh;
+    padding-bottom: 20px;
+}
+.input,label{
+    display: block;
+}
+.button{
+  background: white;
+  color:rgb(31, 82, 121);
+}
+input, select, option,textarea{
+    height: 10%;
+    width: 100%;
+    padding: 5px;
+    color: rgb(31, 82, 121);
+    background: white;
+    font-weight: bold;
+}
+option{
+  background: white;
+  padding: 10px;
+}
+.main-form{
+    padding: 10px 10%;
+    margin: 40px 0px;
+    background: rgb(31, 82, 121);
+    color: white;
+}
+.tab{
+    display: none;
+}
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: rgb(0, 242, 8);
+}
+blockquote {
+  position: relative;
+  display: inline-block;
+  font-family: 'Bitter', serif;
+  color: white;
+  text-align: left;
+  transition-duration: .3s;
+  border-left-width: 0px;
+  font-size: 1.07em;
+  font-weight: bold;
+}
+blockquote span.author {
+  position: relative;
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  color: rgb(21, 121, 160)(32, 30, 30);
+}
+blockquote span.author i {
+  position: relative;
+  padding-left: 5px;
+  font-style: italic;
+  z-index: 5;
+}
+blockquote span.author::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  z-index: 1;
+}
+
+blockquote::before {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  content: "\"";
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  color: #999;
+}
+#third{
+    margin-bottom:20px; 
+}
+.header img{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.header{
+  padding: 20px;
+}
+.header h1{
+  margin-left: 12%;
+  font-size: 4.01em;
+  font-weight: 1000;
+  color:rgb(31, 82, 121);
+}
+.service-explain h4{
+  font-weight: 500;
+  color: white;
+  padding-top: 20px;
+}
+.main-heading h1{
+  padding: 10px 0px 5px 40px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 2px 2px #ccc;
+  color: rgb(31, 82, 121);
+}
+.main-heading h4{
+  padding: 10px 0px 5px 40px;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 1px #ccc;
+}
+.service-list{
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+.list-item h3{
+  border: 1px solid rgb(31, 82, 121);
+  border-radius: 50%;
+  padding: 20px;
+  margin: 10px 30%;
+  box-shadow: 0px 0px 20px 5px rgb(31, 82, 121);
+  font-weight: bold;
+}
+.whyus{
+  background: rgb(31, 82, 121);
+  padding: 70px 60px;
+  padding-bottom: 90px;
+}
+.whyus h2{
+  color: white;
+  font-weight: 1000;
+  font-size: 3em;
+  padding: 0px 0px 20px 0px;
+}
+.whyus p{
+   color: white;
+  font-weight: bold;
+  padding: 0px;
+}
+.what-we-offer{
+  background:url("img/m1.jpg");
+  padding: 40px 100px;
+
+}
+.offer-single, .what-we-offer h2{
+  text-align: center;
+}
+.what-we-offer h2,h4{
+  color: rgb(31, 82, 121);
+  font-weight: 800;
+}
+.closer{
+  padding: 20px;
+  background: rgb(31, 82, 121);
+}
+.closer h1{
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+}
+
+@media only screen and (max-width:768px) {
+  .{
+    padding: 0px;
+    margin: 0px;
+  }
+  .base{
+    width: 100%;
+    top:6em;
+    height: auto;
+    padding-left: 0px;
+    margin-left: 0px;
+    background: url("img/m1.jpg");
+  }
+  .service{
+    padding: 0px;
+    margin:0px;
+  }
+  .header{
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+    position: fixed;
+    top: 0em;
+    background: #fff;
+    z-index: 200;
+    width: 100%;
+  }
+  .header img{
+    width: 50px;
+    height: auto;
+    position: unset;
+    padding-top:0px;
+    display: inline; 
+    text-align: center;
+    
+  }
+  .header h1{
+    font-size: 1.5em;
+    padding-top:0px;
+    margin-top: 0px; 
+    display: block;
+    padding-left: 10px;
+    margin-left: 0px;
+  }
+  .main-heading h1{
+    font-size: 1.5em;
+    padding: 10% 10% 2% 10%;
+  }
+  .whyus{
+    margin-top: 90px;
+  }
+  .whyus h2{
+    font-size: 2em;
+  }
+  .whyus-p p{
+    padding: 10px;
+  }
+}

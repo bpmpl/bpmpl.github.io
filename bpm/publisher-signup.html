@@ -108,7 +108,7 @@
              Please create a Bridging Points Media Publisher Account. If you are already registered, then please sign-in.
              (If you are having trouble signing in, please write to <a href="mailto:marketing@bridgingpointsmedia.com">marketing@bridgingpointsmedia.com</a> or call at +91- 9266 663 044)
         </p>
-        <form action="">
+        <form action="publisher-signup.php" method="POST">
             <div class="form-content">
                 <div class="col-md-4 client-details">
                     <h3>Personal Details</h3>
@@ -135,15 +135,15 @@
                     </div>
                     <div class="form-group">
                         <label for="name">First Name</label>
-                        <input type="text">
+                        <input type="text" name="firstname">
                     </div>
                     <div class="form-group">
-                        <label for="name">Middle Name</label>
-                        <input type="text">
+                        <label for="name" >Middle Name</label>
+                        <input type="text" name="middlename">
                     </div>
                     <div class="form-group">
                         <label for="name">Last Name</label>
-                        <input type="text">
+                        <input type="text" name="lastname">
                     </div>
 
                     <h3>Company Details</h3>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="form-group">
                         <label for="country">Country</label>
-                        <select>
+                        <select name="country" id="country">
                             <option value="">Choose Country</option>
                             <option value="AF">Afghanistan</option>
                             <option value="AX">Åland Islands</option>
@@ -524,11 +524,11 @@
                     </div>
                     <div class="form-group who">
                         <label for="vgender">Gender of Visitors</label>
-                        <input type="radio" name="title" id="male" value="Mostly Male">
+                        <input type="radio" name="vgender" id="male" value="Mostly Male">
                         <span class="title-option">Male</span>
-                        <input type="radio" name="title" id="female" value="Mostly Female">
+                        <input type="radio" name="vgender" id="female" value="Mostly Female">
                         <span class="title-option">Female</span>
-                        <input type="radio" name="title" id="other" value="Both">
+                        <input type="radio" name="vgender" id="other" value="Both">
                         <span class="title-option">Both</span>
                     </div>
                     <div class="form-group who">
@@ -544,7 +544,7 @@
                     </div>
                     <div class="form-group">
                         <label for="ad">Select Acceptable Ad Formats</label>
-                        <select name="ad" id="ad">
+                        <select name="ad-format" id="ad">
                             <option value="Text Ad">Text Ad</option>
                             <option value="Static Display Banner Ad">Static Display Banner Ad</option>
                             <option value="Dynamic Display Banner Ad">Dynamic Display Banner Ad</option>
@@ -560,11 +560,11 @@
 
                     <div class="form-group">
                         <label for="wurl">Additional Website (URL)</label>
-                        <input type="text" name="wurl">
+                        <input type="text" name="wurl1">
                     </div>
                     <div class="form-group">
                         <label for="wlang">Site Language</label>
-                        <select name="wlang" id="wlang">
+                        <select name="wlang1" id="wlang1">
                             <option value="Display Advertising">Display Advertising</option>
                             <option value="E-Mail Marketing">E-Mail Marketing</option>
                             <option value="SMS Marketing">SMS Marketing</option>
